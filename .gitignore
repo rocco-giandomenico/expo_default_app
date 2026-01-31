@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+
+# Debug & Logs
+npm-debug.*
+*.orig.*
+
+# Yarn
+yarn-debug.log*
+yarn-error.log*
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+
+# Signing & Native Keys
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Native Folders
+ios
+android
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Metro
+# Temporary files created by Metro to check the health of the file watcher
+.metro-health-check*
